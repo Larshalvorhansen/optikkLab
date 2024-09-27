@@ -1,0 +1,19 @@
+name: ttk4265
+
+channels:
+- conda-forge
+- defaults
+
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - jupyterlab
+  - scikit-learn
+  - scipy
+  - scikit-image
+  - opencv
+  - plotly
