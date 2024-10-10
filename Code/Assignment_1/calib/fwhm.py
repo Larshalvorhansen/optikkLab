@@ -15,7 +15,7 @@ import imageio as iio
 import scipy as sp
 from typing import List, Tuple
 
-from calibration_functions import pixel_to_wavelength
+from calib.calibration_functions import pixel_to_wavelength
 
 def calc_fwhm(files: List[str], lines: List[int], coeff: float) -> Tuple[List[List[float]], List[int]]:
     """
